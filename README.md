@@ -26,6 +26,8 @@ This project is a React-based landing page inspired by the design of an OpenAI G
 - JavaScript (ES6+): For the application logic.
 
 
-### Link: ###
+
+
+### Link to the Project: ###
 https://gpt3-landing-page-clone.netlify.app
 
