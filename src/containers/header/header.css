@@ -1,8 +1,6 @@
-.gpt3__header{
+.gpt3__header {
     display: flex;
-    justify-content: center;   /* centers content horizontally */
-    align-items: center;
-    padding: 0 5rem;
+    flex-direction: row;
 }
 
 .gpt3__header-content {
@@ -18,21 +16,18 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-style: normal;
     font-size: 62px;
     line-height: 75px;
-
-    letter-spacing: -0.04em ;
+    letter-spacing: -0.04em;
 }
 
 .gpt3__header-content p {
     font-family: var(--font-family);
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 27px;
-
+    line-height: 28px;
     color: var(--color-text);
+
     margin-top: 1.5rem;
 }
 
@@ -41,51 +36,44 @@
     margin: 2rem 0 1rem;
 
     display: flex;
+    flex-direction: row;
 }
 
 .gpt3__header-content__input input {
     flex: 2;
     width: 100%;
     min-height: 50px;
-
-    background: var(--color-footer);
     font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
     color: #fff;
 
-    border: 2px solid var(--color-footer);
-    font-size: 20px;
-    line-height: 27px;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-
-    color: #3D6184;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-
 
 .gpt3__header-content__input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
-    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
     background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
 
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-    outline: none;
-    padding: 0 1rem;
-    border: none;
 }
 
 .gpt3__header-content__people {
@@ -93,6 +81,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
 
     margin-top: 2rem;
 }
@@ -100,20 +89,15 @@
 .gpt3__header-content__people img {
     width: 181.79px;
     height: 38px;
-
 }
 
 .gpt3__header-content__people p {
-
     margin: 0 0 0 1rem;
-
-    font-style: var(--font-family);
-    font-style: normal;
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
     line-height: 38px;
-
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
 }
 
