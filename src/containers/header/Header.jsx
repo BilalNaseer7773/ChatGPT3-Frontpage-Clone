@@ -13,7 +13,7 @@ const Header = () => {
           OpenAI
         </h1>
         <p>
-          GPT-3  the door to endless opportunities. 
+          GPT-3 opens the door to endless opportunities. 
           From generating fresh ideas and enhancing productivity 
           to solving complex challenges, this powerful AI is designed 
           to help you work smarter, create faster, and achieve more
