@@ -1,6 +1,7 @@
 # **GPT-3 OpenAI Landing Page**
 
 
+
 This project is a React-based landing page inspired by the design of an OpenAI GPT-3 website. It was created to demonstrate my skills in modern front-end development, specifically using React and its ecosystem. The project showcases a clean, responsive, and engaging user interface.
 
 ## **Features 💻**
